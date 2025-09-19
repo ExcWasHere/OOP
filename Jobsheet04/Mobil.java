@@ -1,5 +1,5 @@
 package Jobsheet04;
 
-public class Relation {
+public class Mobil {
     
 }
