@@ -36,8 +36,8 @@ public class Mahasiswa {
     }
 
     public void tampilkanInfo() {
-        System.out.println("Student ID: " + NIM);
-        System.out.println("Student Name: " + nama);
+        System.out.println("Student ID      : " + NIM);
+        System.out.println("Student Name    : " + nama);
         jur.tampilkanInfo();
     }
 }

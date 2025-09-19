@@ -21,7 +21,7 @@ class Jurusan {
     }
 
     public void tampilkanInfo() {
-        System.out.println("Major: " + nama);
-        System.out.println("Accreditation: " + akreditasi);
+        System.out.println("Major           : " + nama);
+        System.out.println("Accreditation   : " + akreditasi);
     }
 }
