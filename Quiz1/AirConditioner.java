@@ -37,10 +37,9 @@ public class AirConditioner {
 
     public String infoAirConditioner() {
         String info = "";
-        info += "Brand: " + brand + "\n";
-        info += "Production Year: " + productionYear + "\n";
-        info += remote.infoRemote();
-        info += compressor.infoCompressor();
+        info += "AC Brand: " + brand + "\n";
+        info += remote.getLanguage() + "\n";
+        info += "Compressor Capacity: " + compressor.getCapacity() + "\n";
         return info;
     }
 }

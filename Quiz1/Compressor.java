@@ -26,7 +26,7 @@ public class Compressor {
     public String infoCompressor() {
         String info = "";
         info += "Type: " + type + "\n";
-        info += "Capacity: " + capacity + "\n";
+        info += "Compressor Capacity: " + capacity + "\n";
         return info;
     }
 }

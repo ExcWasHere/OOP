@@ -8,7 +8,7 @@ public class Remote {
     }
 
     public String getLanguage() {
-        return language;
+        return "Remote Language: " + language;
     }
 
     public int getBatteryNumber() {
@@ -25,7 +25,7 @@ public class Remote {
 
     public String infoRemote() {
         String info = "";
-        info += "Language: " + language + "\n";
+        info += "Remote Language: " + language + "\n";
         info += "Battery Number: " + batteryNumber + "\n";
         return info;
     }
