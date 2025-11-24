@@ -1,7 +1,8 @@
 public class tower implements DestroyAble {
+   public tower() {
+   }
 
-    @Override
-    public void destroyed() {
-        System.out.print("Tower has been destroyed! ");
-    }
+   public void destroyed() {
+      System.out.print("Tower has been destroyed! ");
+   }
 }
